@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lottie</title>
+    <script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <div style="width:1067px;height:600px"  id="svgContainer" data-animation-path="animation/" data-anim-loop="true" data-name="ninja"></div>
+</body>
+<script src="bodymovin.js"></script>
+<script>
+   /* Shapes */
+/* Shapes */
+var svgContainer = document.getElementById('svgContainer');
+var animItem = bodymovin.loadAnimation({
+  wrapper: svgContainer,
+  animType: 'svg',
+  loop: true,
+  path: 'office.json'
+//   path: 'https://labs.nearpod.com/bodymovin/demo/markus/isometric/markus2.json'
+});
+    </script>
+</html>

@@ -154,8 +154,8 @@ header{
       color: rgba(0,0,0,0.5);
       background-color: white;
       border: none;
-      position: relative;
-      left: 120px;
+      /* position: relative;
+      left: 120px; */
   }
   .card-title{
       text-align: center;
@@ -198,14 +198,13 @@ header{
         color: rgba(0,0,0,0.5);
         background-color: white;
         border: none;
-        position: relative;
-        left: 75px;
+      
     }
 
   }
 
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
 
     .skills {
         position: absolute;
@@ -226,13 +225,27 @@ header{
         color: rgb(93, 92, 92);
     }
 
-    .btn {
+  
+    .second {
+        height: 45vh;
+        margin-top: 30px;
+    }
+    .btnnext {
         position: absolute;
-        top: 6px;
-        left: 250px;
+        top: 304px;
+        left: 237px;
         font-size: 24px;
         font-weight: 100;
-        font-weight: 100;
+    }
+    .divcourse {
+        background-color: #f1f1f1;
+        height: 45vh;
+    }
+    .btn-certificate {
+        color: rgba(0,0,0,0.5);
+        background-color: white;
+        border: none;
+        
     }
   }
 

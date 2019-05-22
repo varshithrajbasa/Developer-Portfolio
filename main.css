@@ -176,6 +176,35 @@ header{
   }
 
   /*break points */
+
+  @media only screen and (max-width: 1024px){
+
+    .second {
+        height: 45vh;
+        margin-top: 30px;
+    }
+    .btnnext {
+        position: absolute;
+        top: 454px;
+        left: 318px;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .divcourse {
+        background-color: #f1f1f1;
+        height: 45vh;
+    }
+    .btn-certificate {
+        color: rgba(0,0,0,0.5);
+        background-color: white;
+        border: none;
+        position: relative;
+        left: 75px;
+    }
+
+  }
+
+
   @media screen and (max-width: 768px) {
 
     .skills {

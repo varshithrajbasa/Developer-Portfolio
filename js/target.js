@@ -5,3 +5,11 @@
             },
             'slow');
     });
+
+    $("#next").click(function () {
+
+        $('html,body').animate({
+                scrollTop: $(".udemy").offset().top
+            },
+            'slow');
+    });

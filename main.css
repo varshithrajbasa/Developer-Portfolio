@@ -269,6 +269,11 @@ header {
         display: block;
         height: 90vh;
     }
+    ul {
+        margin-top: 11.5rem !important;
+        background-color: white;
+        border-radius: 1rem;
+    }
     .name {
         font-size: 24vw;
     }
@@ -316,5 +321,12 @@ header {
         display: flex;
         justify-content: center;
         max-width: 50%;
+    }
+    .navitems {
+        float: right;
+        right: 14px;
+        top: 58px;
+        left: 14px;
+        position: absolute;
     }
 }
